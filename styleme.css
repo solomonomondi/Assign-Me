@@ -1,6 +1,6 @@
 
 body {
-    background-image: url('software.jpg');
+    background-image: url('tech.avif');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -175,3 +175,109 @@ form {
     .form-group button:hover {
         background-color: #0056b3;
     }
+
+    /* Projects Section Styling */
+#projects-section {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 40px;
+}
+
+#projects-section h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.project {
+    padding: 30px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.project:last-child {
+    border-bottom: none;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.project-header h3 {
+    color: #007bff;
+    font-size: 1.6em;
+    margin: 0;
+    flex: 1;
+}
+
+.project-date {
+    background-color: #e7f3ff;
+    color: #007bff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.project-overview {
+    color: #333;
+    font-size: 1.05em;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.project-details {
+    margin-top: 25px;
+}
+
+.detail-section {
+    margin-bottom: 25px;
+}
+
+.detail-section h4 {
+    color: #007bff;
+    font-size: 1.2em;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 8px;
+}
+
+.detail-section ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.detail-section ul li {
+    color: #555;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.detail-section ul li:before {
+    content: "▸";
+    color: #007bff;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.detail-section p {
+    color: #555;
+    line-height: 1.6;
+    margin: 8px 0;
+}
+
+.detail-section p strong {
+    color: #007bff;
+}
