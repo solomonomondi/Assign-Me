@@ -1,0 +1,177 @@
+
+body {
+    background-image: url('software.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+/* About Section Styling */
+#about-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#about-section h1 {
+    font-size: 2.5em;
+    color: #222;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#about-section h2 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#about-section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #007bff;
+    margin-bottom: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#about-section img:hover {
+    transform: scale(1.05);
+}
+
+#about-section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #333;
+    margin-top: 15px;
+}
+/* Tech Stack Table Styling */
+#tech-stack {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+#tech-stack h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table thead {
+    background-color: #007bff;
+    color: white;
+}
+
+table th {
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid #007bff;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+table tbody tr:hover {
+    background-color: #f0f8ff;
+}
+
+table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+/* Color coding for different tech areas */
+table td.UI {
+    background-color: #fff3cd;
+    font-weight: bold;
+}
+
+table td.Frontend {
+    background-color: #d1ecf1;
+    font-weight: bold;
+}
+
+table td.Backend {
+    background-color: #d4edda;
+    font-weight: bold;
+}
+
+table td.Database {
+    background-color: #f8d7da;
+    font-weight: bold;
+}
+
+table td.Frameworks {
+    background-color: #e7d4f5;
+    font-weight: bold;
+}
+
+table tfoot {
+    background-color: #e9ecef;
+}
+
+table tfoot td {
+    padding: 12px 15px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+form {
+        max-width: 500px;
+        margin: 0 auto;
+     
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 300px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .form-group button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .form-group button:hover {
+        background-color: #0056b3;
+    }
